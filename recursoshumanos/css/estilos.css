@@ -1,0 +1,136 @@
+a.titulo {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+
+}
+
+.css-button-sliding-to-left--green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #57cc99;
+  color: #57cc99;
+}
+.css-button-sliding-to-left--green:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--green:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--green:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #57cc99;
+}
+
+#centrado {
+  text-align:center;
+	
+}
+
+/* ESTILOS GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* FIN ESTILOS GOOGLE FONTS */
+
+
+/* ESTILOS TABLAS */
+
+ table {
+   width: 90%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
+ }
+
+ table, td{
+   border: black 2px solid;
+   border-collapse: collapse;
+   border-radius: 8px;
+ }
+
+td, tr {
+  padding: 10px;
+  vertical-align: top;
+  transform: scale(1);
+}
+
+thead {
+  text-align: center;
+  color: #;
+  font-weight: bold;
+}
+
+legend {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* FIN SIGNIFICADO */
+
+.significado {
+  font-size: 22px;
+}
+
+/* FIN SIGNIFICADO */
+
+
+/* FIN ESTILOS TABLAS */
+
+/* ESTILOS TITULOS */
+
+h1 {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+/* FIN ESTILOS TITULOS */
+
+/* ESTILOS ENLACES */
+
+a:link.instagram {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:visited.instagram {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover.instagram {
+  color: red;
+  text-decoration: none;
+}
+
+/* FIN ESTILOS ENLACES */
